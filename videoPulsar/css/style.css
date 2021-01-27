@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;
+
+0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
 html,
 body,
 div,
@@ -165,4 +168,74 @@ hr {
 input,
 select {
   vertical-align: middle;
+}
+
+:root {
+  --grayd3-color: #D3D3D3;
+  --grayac-color: #ACACAC;
+  --graybe-color: #BEBEBE;
+  --pink-color: #EC25A3;
+}
+
+body {
+  color: white;
+  background: black;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.container {
+  width: 1649px;
+  margin: 0 auto;
+}
+
+header {
+  width: 1255px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 70px auto 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+headerheader__center {
+  color: var(--grayac-color);
+  font-size: 18px;
+  line-height: 23px;
+}
+
+headerheader__number {
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 32px;
+}
+
+.details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.detailsdetails__content {
+  width: 132px;
+  margin: 120px 307px 65px 210px;
+}
+
+.detailsdetails__contentdetails__content-start {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 130%;
+}
+
+.detailsdetails__contentdetails__title-main {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 89px;
+  line-height: 114px;
+  color: var(--pink-color);
 }
