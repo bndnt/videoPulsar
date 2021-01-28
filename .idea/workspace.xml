@@ -2,22 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0042875f-dc63-4713-a61f-10df5181329e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/#src/img/171390259.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/#src/img/Space_Big_clouds_on_a_small_planet_095931_.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/#src/img/user1.jpg" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/#src/scss/media.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/#src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/#src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/#src/scss/fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/#src/scss/fonts.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/#src/pulsarDetail.html" beforeDir="false" afterPath="$PROJECT_DIR$/#src/pulsarDetail.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/#src/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/#src/scss/style.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/videoPulsar/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/videoPulsar/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/videoPulsar/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/videoPulsar/css/style.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoPulsar/img/171390259.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoPulsar/img/171390259.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoPulsar/img/Space_Big_clouds_on_a_small_planet_095931_.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoPulsar/img/Space_Big_clouds_on_a_small_planet_095931_.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoPulsar/img/user1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoPulsar/img/user1.webp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/videoPulsar/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/videoPulsar/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videoPulsar/pulsarDetail.html" beforeDir="false" afterPath="$PROJECT_DIR$/videoPulsar/pulsarDetail.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +62,7 @@
       <workItem from="1611554250341" duration="481000" />
       <workItem from="1611602061983" duration="1182000" />
       <workItem from="1611687517383" duration="963000" />
-      <workItem from="1611779494537" duration="5611000" />
+      <workItem from="1611779494537" duration="28498000" />
     </task>
     <servers />
   </component>
