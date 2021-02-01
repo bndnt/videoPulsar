@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0042875f-dc63-4713-a61f-10df5181329e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/#src/scss/media.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/#src/phonePuls.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/#src/subscribes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/#src/_header.html" beforeDir="false" afterPath="$PROJECT_DIR$/#src/_header.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/#src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/#src/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/#src/pulsarDetail.html" beforeDir="false" afterPath="$PROJECT_DIR$/#src/pulsarDetail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/#src/scss/media.scss" beforeDir="false" afterPath="$PROJECT_DIR$/#src/scss/media.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/#src/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/#src/scss/style.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/videoPulsar/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/videoPulsar/css/style.css" afterDir="false" />
@@ -62,7 +65,13 @@
       <workItem from="1611554250341" duration="481000" />
       <workItem from="1611602061983" duration="1182000" />
       <workItem from="1611687517383" duration="963000" />
-      <workItem from="1611779494537" duration="28498000" />
+      <workItem from="1611779494537" duration="28786000" />
+      <workItem from="1611820288195" duration="7707000" />
+      <workItem from="1611830838758" duration="457000" />
+      <workItem from="1611955167996" duration="54709000" />
+      <workItem from="1612162300363" duration="82000" />
+      <workItem from="1612167291782" duration="4669000" />
+      <workItem from="1612173205926" duration="1072000" />
     </task>
     <servers />
   </component>
