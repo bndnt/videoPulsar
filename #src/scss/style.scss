@@ -138,6 +138,58 @@ color: white;
 //background-image: url('../img/Circlebg.png');
   background-size: cover;
 }
+.button{
+  position: relative;
+  cursor: pointer;
+  &__top{
+    background: linear-gradient(245.78deg, #EC25A3 16.92%, #8D35F8 63.4%);
+    width: 384px;
+    height: 90px;
+    text-align: center;
+    border-radius: 5px;
+  }
+  &__top-link{
+    color: white;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 130%;
+    padding: 27px 77px 31px 36px;
+    position: relative;
+    display: inline-block;
+    border-radius: 5px;
+  }
+  &__top-link:after{
+    content: '';
+    position: absolute;
+    background-image: url("../img/arrow.png");
+    background-repeat: no-repeat;
+    width: 25px;
+    height: 21px;
+    right: 35px;
+    top:36px;
+  }
+  &__bottom {
+    position: relative;
+    background: linear-gradient(245.78deg, #EC25A3 16.92%, #8D35F8 63.4%);
+    width: 384px;
+    height: 90px;
+    border-radius: 5px;
+    margin: -82px 0 0 -8px;
+    z-index: -1;
+  }
+  &__bottom:before{
+    content: '';
+    position: absolute;
+    background: black;
+    border-radius: 5px;
+    top: 2px;
+    bottom: 2px;
+    left: 2px;
+    right: 2px;
+  }
+}
 .container{
   width: 100%;
   max-width:1270px;
@@ -180,16 +232,16 @@ color: white;
   position: relative;
   margin-bottom: 65px;
 
-  &:after{
-    content: '';
-    height: 144px;
-    width: 100%;
-    position: absolute;
-    bottom: 0;
-    z-index: 1;
-    background: rgb(0, 0, 0);
-    background: linear-gradient(0deg, rgba(0,0,0,0.989233193277311) 28%, rgba(0,0,0,0.9360119047619048) 35%, rgba(0,0,0,0.8323704481792717) 47%, rgba(0,0,0,0.7315301120448179) 58%, rgba(0,0,0,0.5746673669467788) 69%, rgba(0,0,0,0.4374124649859944) 77%, rgba(0,0,0,0.16850490196078427) 87%, rgba(0,0,0,0) 100%);
-  }
+  //&:after{
+  //  content: '';
+  //  height: 144px;
+  //  width: 100%;
+  //  position: absolute;
+  //  bottom: 0;
+  //  z-index: 1;
+  //  background: rgb(0, 0, 0);
+  //  background: linear-gradient(0deg, rgba(0,0,0,0.989233193277311) 28%, rgba(0,0,0,0.9360119047619048) 35%, rgba(0,0,0,0.8323704481792717) 47%, rgba(0,0,0,0.7315301120448179) 58%, rgba(0,0,0,0.5746673669467788) 69%, rgba(0,0,0,0.4374124649859944) 77%, rgba(0,0,0,0.16850490196078427) 87%, rgba(0,0,0,0) 100%);
+  //}
 
 &__wraper {
   display: flex;}
@@ -505,6 +557,7 @@ color: white;
     max-width: 828px;
     display: flex;
     flex-wrap: wrap;
+    position: relative;
   }
 
   &__items {
@@ -549,13 +602,25 @@ color: white;
       width: 100%;
     }
 
-
+  &__words{
+    font-weight: bold;
+    font-size: 108px;
+    line-height: 138px;
+    text-transform: uppercase;
+    position: absolute;
+    top:0;
+    right:-50%;
+  }
+  &__words-course{
+    margin-left: 150px;
+  }
 
   &__items-text {
     width: 70%;
   }
 }
 .plus{
+  margin-bottom: 225px;
   &plus__service{
 
   }
@@ -563,6 +628,12 @@ color: white;
     position: absolute;
     top: -20%;
     right: 0;
+    z-index: -2;
+  }
+  &__services-shadow{
+    position: absolute;
+    top: -35%;
+    left:-5%;
     z-index: -2;
   }
   &__title{
@@ -598,8 +669,8 @@ color: white;
   }
   &__services-letter{
     position: absolute;
-    top:12%;
-    left:40%;
+    top:-10%;
+    left:20%;
     font-weight: bold;
     font-size: 108px;
     line-height: 138px;
@@ -700,7 +771,7 @@ color: white;
   }
   &__ad-shadow{
     position: absolute;
-    top: 0;
+    top: -50%;
     left: 0;
     z-index: -2;
   }
@@ -719,8 +790,36 @@ color: white;
     margin-left: 43px;
   }
   &__ad-img{
-    width: 564px;
-    height: 638px;
+
+  }
+  &__profits{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 130px 0;
+  }
+  &__profits-shadow{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -2;
+  }
+  &__profits-letter{
+    position: absolute;
+    top:0;
+    left:-5%;
+    font-weight: bold;
+    font-size: 108px;
+    line-height: 138px;
+    text-transform: uppercase;
+    z-index: -1;
+  }
+  &__profits-text{
+
+  }
+  &__btn{
+    display: flex;
+    justify-content: center;
   }
 }
 

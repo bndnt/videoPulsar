@@ -204,6 +204,66 @@ body {
   background-size: cover;
 }
 
+.button {
+  position: relative;
+  cursor: pointer;
+}
+
+.button__top {
+  background: -o-linear-gradient(204.22deg, #EC25A3 16.92%, #8D35F8 63.4%);
+  background: linear-gradient(245.78deg, #EC25A3 16.92%, #8D35F8 63.4%);
+  width: 384px;
+  height: 90px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.button__top-link {
+  color: white;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 130%;
+  padding: 27px 77px 31px 36px;
+  position: relative;
+  display: inline-block;
+  border-radius: 5px;
+}
+
+.button__top-link:after {
+  content: '';
+  position: absolute;
+  background-image: url("../img/arrow.png");
+  background-repeat: no-repeat;
+  width: 25px;
+  height: 21px;
+  right: 35px;
+  top: 36px;
+}
+
+.button__bottom {
+  position: relative;
+  background: -o-linear-gradient(204.22deg, #EC25A3 16.92%, #8D35F8 63.4%);
+  background: linear-gradient(245.78deg, #EC25A3 16.92%, #8D35F8 63.4%);
+  width: 384px;
+  height: 90px;
+  border-radius: 5px;
+  margin: -82px 0 0 -8px;
+  z-index: -1;
+}
+
+.button__bottom:before {
+  content: '';
+  position: absolute;
+  background: black;
+  border-radius: 5px;
+  top: 2px;
+  bottom: 2px;
+  left: 2px;
+  right: 2px;
+}
+
 .container {
   width: 100%;
   max-width: 1270px;
@@ -255,19 +315,6 @@ body {
   position: relative;
   margin-bottom: 65px;
   overflow: hidden;
-}
-
-.details:after {
-  content: '';
-  height: 144px;
-  width: 100%;
-  position: absolute;
-  bottom: 0;
-  z-index: 1;
-  background: black;
-  background: -webkit-gradient(linear, left bottom, left top, color-stop(28%, rgba(0, 0, 0, 0.989233)), color-stop(35%, rgba(0, 0, 0, 0.936012)), color-stop(47%, rgba(0, 0, 0, 0.83237)), color-stop(58%, rgba(0, 0, 0, 0.73153)), color-stop(69%, rgba(0, 0, 0, 0.574667)), color-stop(77%, rgba(0, 0, 0, 0.437412)), color-stop(87%, rgba(0, 0, 0, 0.168505)), to(rgba(0, 0, 0, 0)));
-  background: -o-linear-gradient(bottom, rgba(0, 0, 0, 0.989233) 28%, rgba(0, 0, 0, 0.936012) 35%, rgba(0, 0, 0, 0.83237) 47%, rgba(0, 0, 0, 0.73153) 58%, rgba(0, 0, 0, 0.574667) 69%, rgba(0, 0, 0, 0.437412) 77%, rgba(0, 0, 0, 0.168505) 87%, rgba(0, 0, 0, 0) 100%);
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.989233) 28%, rgba(0, 0, 0, 0.936012) 35%, rgba(0, 0, 0, 0.83237) 47%, rgba(0, 0, 0, 0.73153) 58%, rgba(0, 0, 0, 0.574667) 69%, rgba(0, 0, 0, 0.437412) 77%, rgba(0, 0, 0, 0.168505) 87%, rgba(0, 0, 0, 0) 100%);
 }
 
 .details__wraper {
@@ -636,6 +683,7 @@ body {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  position: relative;
 }
 
 .numbers__items {
@@ -685,14 +733,39 @@ body {
   width: 100%;
 }
 
+.numbers__words {
+  font-weight: bold;
+  font-size: 108px;
+  line-height: 138px;
+  text-transform: uppercase;
+  position: absolute;
+  top: 0;
+  right: -50%;
+}
+
+.numbers__words-course {
+  margin-left: 150px;
+}
+
 .numbers__items-text {
   width: 70%;
+}
+
+.plus {
+  margin-bottom: 225px;
 }
 
 .plus__servic-shadow {
   position: absolute;
   top: -20%;
   right: 0;
+  z-index: -2;
+}
+
+.plus__services-shadow {
+  position: absolute;
+  top: -35%;
+  left: -5%;
   z-index: -2;
 }
 
@@ -737,8 +810,8 @@ body {
 
 .plus__services-letter {
   position: absolute;
-  top: 12%;
-  left: 40%;
+  top: -10%;
+  left: 20%;
   font-weight: bold;
   font-size: 108px;
   line-height: 138px;
@@ -869,7 +942,7 @@ body {
 
 .plus__ad-shadow {
   position: absolute;
-  top: 0;
+  top: -50%;
   left: 0;
   z-index: -2;
 }
@@ -889,9 +962,43 @@ body {
   margin-left: 43px;
 }
 
-.plus__ad-img {
-  width: 564px;
-  height: 638px;
+.plus__profits {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 130px 0;
+}
+
+.plus__profits-shadow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -2;
+}
+
+.plus__profits-letter {
+  position: absolute;
+  top: 0;
+  left: -5%;
+  font-weight: bold;
+  font-size: 108px;
+  line-height: 138px;
+  text-transform: uppercase;
+  z-index: -1;
+}
+
+.plus__btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 @media (max-width: 1419px) {
@@ -939,6 +1046,8 @@ body {
     line-height: 30px;
   }
 }
+
+.webp .button__top-link:after{ background-image: url(../img/arrow.webp); }
 
 .webp .header:after{ background-image: url(../img/elips-head.webp); }
 
